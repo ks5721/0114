@@ -36,7 +36,9 @@ h4,
 h5,
 h6 {
   color: #323232;
-  font-weight: 600; }
+  font-weight: 600; 
+  font-family: 'Black Han Sans', sans-serif;
+}
 
 p {
   color: #7d7d7d;
@@ -51,14 +53,17 @@ a {
   text-decoration: none;
   outline: none;
   font-size: 20px;
-  font-weight: 600; }
+  font-weight: 600; 
+
+}
   a:hover, a:focus {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
     font-size: 14px;
-    font-weight: 600; }
+    font-weight: 600;
+   }
 
 
 li {
@@ -448,7 +453,7 @@ img {
   height: 90px;
   position: relative;
   z-index: 111111;
-  background-color: black;
+  background-color: #1F1D1D;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -472,7 +477,36 @@ img {
   .main-header-area .classynav ul li a {
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600; }
+    font-weight: 600;
+    font-family: 'Gugi', cursive;
+     }
+
+  .main-header-area .classynav ul li a:hover {
+    color: #555454;
+  }
+     .main-header-area .classynav .fontcolor a:hover {
+      color: #C3A37D;
+    }
+    .main-header-area .classynav .fontcolor a {
+      color: #B5B2B2;
+    }
+
+.location p {
+  font-family: 'Dokdo', cursive;
+}
+
+.new-tag a {
+ font-family: 'Black Han Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
   .main-header-area .nav-brand {
     line-height: 1; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -499,7 +533,7 @@ img {
         width: 100%;
         margin-top: 15px;
         line-height: 50px;
-        background-color: #947054; } }
+        background-color: #947004; } }
     @media only screen and (max-width: 767px) {
       .main-header-area .searchbtn {
         margin-left: 0;
