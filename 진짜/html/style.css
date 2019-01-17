@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   color: #323232;
-  font-weight: 600; 
+  font-weight: 1500; 
   font-family: 'Black Han Sans', sans-serif;
 }
 
@@ -54,6 +54,7 @@ a {
   outline: none;
   font-size: 20px;
   font-weight: 600; 
+  color: black;
 
 }
   a:hover, a:focus {
@@ -61,13 +62,14 @@ a {
     transition-duration: 500ms;
     text-decoration: none;
     outline: none;
-    font-size: 14px;
+    color: #947054;
     font-weight: 600;
+
    }
 
 
 li {
-  color: red;
+  color: white;
 
 }
 
@@ -152,7 +154,7 @@ img {
 .height-600 {
   height: 600px !important; }
 
-.height-700 {
+.height-700 {owl-item active
   height: 700px !important; }
 
 .height-800 {
@@ -475,21 +477,48 @@ img {
       .main-header-area .classy-navbar {
         height: 70px;
         padding: 0.5em 30px; } }
+  
+
+
+
+
+
+
+
   .main-header-area .classynav ul li a {
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Gugi', cursive;
+    font-weight: bold;
+    font-size: 16px;
      }
+
+
+
+
+
+
+
+
+
+
+
+
+  .main-header-area .classynav ul {
+    font-size: 17;
+  }
+
 
   .main-header-area .classynav ul li a:hover {
     color: #555454;
   }
      .main-header-area .classynav .fontcolor a:hover {
       color: #C3A37D;
+
     }
     .main-header-area .classynav .fontcolor a {
       color: #B5B2B2;
+      font-size: 14px;
+      
     }
 
 .location p {
@@ -508,8 +537,15 @@ img {
 
 
 
-  .main-header-area .nav-brand {
-    line-height: 1; }
+  }
+
+  .main-header-area .nav-brand span {
+    
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+
+  }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .main-header-area .nav-brand {
         margin-right: 0; } }
